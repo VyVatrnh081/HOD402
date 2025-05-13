@@ -40,3 +40,24 @@
 **shared responsibility model**: làm rõ trách nhiệm giữa nhà cung cấp CSP và khách hàng Cloud Consumer
   + CSP chịu trách nhiệm về bảo mật của “cloud”: phần cứng, cơ sở hạ tầng vật lý, mạng lưới, dịch vụ nền tảng.
   + Khách hàng chịu trách nhiệm về bảo mật “trong cloud”: dữ liệu, cấu hình, quyền truy cập, ứng dụng, hệ điều hành (trong IaaS),...
+
+## penetration testing methodologies
+- **MITRE ATT&CK framework** (https://attack.mitre.org): a collection of different matrices of tactics, techniques, and subtechniques based on real-world observations.
+- **OWASP Web Security Testing Guide (WSTG)**: a comprehensive guide covers the high-level phases of web application security testing and digs deeper into the testing methods used.
+- **NIST SP 800-115**: assist organizations in planning and conducting technical information security tests and examinations, analyzing findings, and developing mitigation strategies.
+- **Open Source Security Testing Methodology Manual (OSSTMM)**: a document that lays out repeatable and consistent security testing.
+  
+![image](https://github.com/user-attachments/assets/30afa274-2e87-40d6-9576-d8f056303ff3)
+
+- **Penetration Testing Execution Standard (PTES)**: provides information about types of attacks and methods, and it provides information on the latest tools available to accomplish the testing methods outlined.
+
+![image](https://github.com/user-attachments/assets/7384cf36-78af-477b-bafc-3a6dce44bc39)
+
+- **Information Systems Security Assessment Framework (ISSAF)**:
+
+![image](https://github.com/user-attachments/assets/afde214c-45dd-42cb-beef-cd4d493bd337)
+
+## requirements and guidelines for ptlab
+
+![image](https://github.com/user-attachments/assets/c9e6ddae-22a8-455f-a582-b8cad31bce68)
+
