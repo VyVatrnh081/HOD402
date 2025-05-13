@@ -16,11 +16,13 @@
   + switches, routers, firewalls
   + AAA servers: authentication _(ai đang cố gắng truy cập)_, authorization _(họ được phép làm gì)_, and accounting _(họ đã làm những gì)_
   + IPSs - Intrusion Prevention Systems: Hệ thống ngăn chặn xâm nhập trái phép.
+    
 **wireless Infrastructure testing**
 - try to gain unthorized access
   + bypass security mechanisms (Captive Portal)
   + break encryption (WPA2/ WPA3 craking)
 - test wifi range and coverage
+
 **2. application-based tests**
 - Goal: testing for security weaknesses in enterprise applications.
   + misconfigurations
@@ -30,6 +32,11 @@
 - testing scope:
   + web server
   + back-end database
+    
 **3. penetration testing in the cloud**
-- the responsibility for cloud security depends on the type of cloud model (software as a service [SaaS], platform as a service [PaaS], or infrastructure as a service [IaaS]).
+- the responsibility for cloud security depends on the type of cloud model _(software as a service [SaaS], platform as a service [PaaS], or infrastructure as a service [IaaS])_.
+- ensure the CSP has the same layers of security _(logical, physical, and administrative)_ in on-premise system.
 
+**shared responsibility model**: làm rõ trách nhiệm giữa nhà cung cấp CSP và khách hàng Cloud Consumer
+  + CSP chịu trách nhiệm về bảo mật của “cloud”: phần cứng, cơ sở hạ tầng vật lý, mạng lưới, dịch vụ nền tảng.
+  + Khách hàng chịu trách nhiệm về bảo mật “trong cloud”: dữ liệu, cấu hình, quyền truy cập, ứng dụng, hệ điều hành (trong IaaS),...
